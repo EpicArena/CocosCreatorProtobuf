@@ -1,0 +1,15 @@
+{
+  "name": "CocosCreatorProtobuf",
+  "uuid": "49be390b-c378-490b-bc82-c81922307e36",
+  "creator": {
+    "version": "3.7.1"
+  },
+  "dependencies": {
+    "protobufjs": "^7.2.2",
+    "protobufjs-cli": "^1.1.1"
+  },
+  "scripts": {
+    "protocli": "node ./tools/build_proto.js",
+    "buildproto": "npm run protocli -- ./assets/Proto ./assets/Scripts/Protobuf ./assets/Scripts/Protobuf pb"
+  }
+}
